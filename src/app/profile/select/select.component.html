@@ -1,0 +1,7 @@
+<h3>{{profilePiece.name}}</h3>
+<div class="ui-g">
+  <div class="ui-md-6 ui-g-12">{{profilePiece.description}}</div>
+  <p-listbox class="ui-md-6 ui-g-12" [options]="content" checkbox="true" [multiple]="profilePiece.multiple" [filter]="profilePiece.filter" [formControl]="profilePiece.formControl"></p-listbox>
+</div>
+<p-messages [value]="warnings" [closable]="false"></p-messages>
+

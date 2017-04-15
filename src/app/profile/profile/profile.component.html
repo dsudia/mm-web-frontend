@@ -1,0 +1,8 @@
+<app-status [profilePieces]="profilePieces"></app-status>
+<form [formGroup]="form">
+  <p-carousel [value]="profilePieces" numVisible="2">
+      <ng-template let-piece pTemplate="piece">
+          <app-select *ngIf="piece.select" [profilePiece]="piece.select"></app-select>
+      </ng-template>
+  </p-carousel>
+</form>

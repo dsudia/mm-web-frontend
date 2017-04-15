@@ -1,0 +1,14 @@
+@import '../../shared/colors.scss';
+
+:host {
+  .status-line {
+    margin: .25em 0;
+    padding: .10em;
+  }
+  .valid {
+    background: $mm-success;
+  }
+  .invalid {
+    background: $mm-error;
+  }
+}

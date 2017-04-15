@@ -1,0 +1,20 @@
+@import '../../shared/colors.scss';
+
+:host {
+  color: $mm-white-one;
+  background-color: $mm-blue-one;
+  display: block;
+  padding-left: 24px;
+  padding-right: 24px;
+  .centered {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+  i.fa {
+    margin: .5em 0;
+    height: 1em;
+    box-sizing: border-box;
+  }
+
+}
